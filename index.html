@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EventSpot — Discover Events Near You</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">🎯 EventSpot</a>
+      <button class="hamburger" id="hamburger">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Discover Events Near You</h1>
+    <p>Browse concerts, workshops, meetups, and more happening in your area.</p>
+    <a href="#events" class="btn">Explore Events</a>
+  </header>
+
+  <!-- Featured Events -->
+  <section class="events-section" id="events">
+    <h2>Featured Events</h2>
+
+    <input type="text" id="search-input" placeholder="Search events by name..." />
+
+    <div class="events-grid" id="events-grid">
+      <!-- Cards injected by JavaScript -->
+    </div>
+
+    <p class="no-results" id="no-results">No events match your search.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2026 EventSpot. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
